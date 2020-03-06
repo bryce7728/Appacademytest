@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App Academy HTML/CSS Assessment</title>
+  <link href="site.css" rel="stylesheet">
+</head>
+<form action="/pets" method="post">
+  <h1>
+    <legend>Pets</legend>
+  </h1>
+
+  <div>
+    <label for="Name">Name</label>
+    <input type="text" id="name" name="Pet_name">
+  </div>
+
+  <div>
+    <label for="Type">Type</label>
+    <select id="type" name="pet_type">
+      <option value="cat">Cat</option>
+      <option value="Dog">Dog</option>
+      <option value="Hamster">Hamster</option>
+      <option value="Other">Other</option>
+      <option value="Zebra">Zebra</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="Biography">Biography</label>
+    <textarea id="bio" name="pet_bio"></textarea>
+  </div>
+
+  <div>
+    <label for="Owner's Email">Owner's Email</label>
+    <input type="email" id="owner-email" name="pet_owner_email">
+  </div>
+
+  <div>
+    <button id="new-pet-submit-button" type="submit">Create new pet </button>
+  </div>
+
+  <div>
+    <button type="reset">Reset</button>
+  </div>
+
+</form>
+
+<body>
+  <!-- Your markup goes here. -->
+</body>
+
+</html>
